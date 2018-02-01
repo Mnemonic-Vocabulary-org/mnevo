@@ -8,7 +8,8 @@ var cors = require("cors");
 var path = require("path");
 var AppError = require('./lib/AppError.js')
 
-app.use(express.static(path.join(__dirname, '../../client/dist')));
+console.log("CLIENT: ",path.join(__dirname, '../mnevo/client/dist'));
+app.use(express.static(path.join(__dirname, '../client/dist')));
 app.use(bp.urlencoded({ extended: false }));
 
 app.use(cors())

@@ -15,4 +15,4 @@ var hero = Object.assign({
 		port: process.env.PORT
 	},common);
 
-module.exports = hero;
+module.exports = c9;
