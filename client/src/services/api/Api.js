@@ -4,7 +4,7 @@ import Env from '@/config/Env'
 export default () => {
   console.log("API: ", Env());
   return axios.create({
-    baseURL: Env().remote+":"+Env().port || "",
+    baseURL: Env().remote+(Env().port ? ":"+Env().port : ""),
     headers: {
     }
   })
