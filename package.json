@@ -1,0 +1,47 @@
+{
+  "name": "mnevo",
+  "version": "0.0.1",
+  "description": "mnemonic vocabulary",
+  "main": "/server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "mnemonic",
+    "vocabulry"
+  ],
+  "author": "grenudi & radikr55",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "aes-js": "^3.1.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "eslint": "^4.13.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "formidable": "^1.1.1",
+    "nodemon": "^1.13.3",
+    "pbkdf2": "^3.0.14",
+    "pug": "^2.0.0-rc.4",
+    "randomstring": "^1.1.5",
+    "set-cookie": "0.0.4",
+    "unirest": "^0.5.1"
+  },
+  "engines": {
+    "node": ">= 8.9.4",
+    "npm": ">= 5.6.0"
+  },
+  "devDependencies": {}
+}
